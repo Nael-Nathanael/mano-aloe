@@ -7,6 +7,7 @@ import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import SportsEsportsIcon from '@material-ui/icons/SportsEsports';
 import ManoAloeGif from '../../assets/miscellaneous/Aloeicon.gif'
 import LanguageSwitchButton from '../languageSwitch/languageSwitch';
+import LoginButton from '../login/LoginButton';
 
 import './navbar.css';
 
@@ -37,7 +38,7 @@ export default function ButtonAppBar() {
                     },
                     {
                         externalLink: true,
-                        link: 'https://github.com/AreYouW/mano-aloe',
+                        link: 'https://github.com/DuongTyler/haachama-coco',
                         altText: "github",
                         iconFunc: () => <InfoIcon/>
                     },
@@ -63,6 +64,7 @@ export default function ButtonAppBar() {
                     }
                 })}
                 <LanguageSwitchButton/>
+                <LoginButton/>
             </div>
         </header>
     );
